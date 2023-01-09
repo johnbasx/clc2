@@ -29,7 +29,7 @@ export function Sponsors() {
             {sponsors.map((sponsor, index) => (
               <div
                 key={"Sponsor-Image-" + sponsor.name + index}
-                className='relative flex items-center justify-center object-contain p-3 overflow-hidden bg-white rounded-2xl'
+                className='relative flex items-center justify-center object-cover p-3 overflow-hidden bg-white rounded-2xl'
               >
                 <Image
                   src={sponsor.logo}
