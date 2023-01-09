@@ -24,19 +24,19 @@ export function Sponsors() {
             blessings
           </p>
         </div>
-        <div className='px-2 py-4 mt-6'>
+        <div className='px-0 py-4 mt-6'>
           <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
             {sponsors.map((sponsor, index) => (
               <div
                 key={"Sponsor-Image-" + sponsor.name + index}
-                className='relative flex items-center justify-center object-cover p-3 overflow-hidden bg-white rounded-2xl'
+                className='relative flex items-center justify-center object-cover w-full px-2 py-5 overflow-hidden bg-white border h-28 rounded-2xl border-slate-600/50'
               >
                 <Image
                   src={sponsor.logo}
                   alt={sponsor.name}
                   width={100}
                   height={100}
-                  className='w-auto h-24'
+                  className='object-contain w-auto h-24'
                 />
               </div>
             ))}

@@ -12,6 +12,16 @@ import beautyRoomLogo from "@images/sponsors/bg-removed/the-beauty-room.png";
 import hotelYaiphabaLogo from "@images/sponsors/hotelyaiphaba.png";
 import unaccoLogo from "@images/sponsors/UNACCO.jpg";
 
+import khilLogo from "@images/sponsors/khil.png";
+import krishiLogo from "@images/sponsors/krishi-vigyan.jpeg";
+import kwamsLogo from "@images/sponsors/kwams.jpeg";
+import liklaLogo from "@images/sponsors/likla.jpeg";
+import mahindraLogo from "@images/sponsors/mahindra.jpeg";
+import seoulHouseLogo from "@images/sponsors/seoul-house.jpeg";
+import tmbLogo from "@images/sponsors/TMB.jpeg";
+import uniquePlanLogo from "@images/sponsors/unique-planners.jpeg";
+import jivanHospitalLogo from "@images/sponsors/jivan-hospital.png";
+
 const sponsorCategory = {
   platinum: { name: "platinum", max: 50000, min: 25000 },
   diamond: { name: "diamond", min: 15000, max: 25000 },
@@ -97,6 +107,60 @@ export const sponsors = [
     id: 13,
     name: "Hotel Yaiphaba",
     logo: hotelYaiphabaLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 14,
+    name: "Khil Design",
+    logo: khilLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 15,
+    name: "Krishi Vigyan Kendra",
+    logo: krishiLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 16,
+    name: "Kwams",
+    logo: kwamsLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 17,
+    name: "Likla",
+    logo: liklaLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 18,
+    name: "Mahindra",
+    logo: mahindraLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 19,
+    name: "Seoul House",
+    logo: seoulHouseLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 20,
+    name: "The Moving Billboard",
+    logo: tmbLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 21,
+    name: "Unique Planners",
+    logo: uniquePlanLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 22,
+    name: "Jivan Hospital",
+    logo: jivanHospitalLogo,
     category: sponsorCategory.gold,
   },
 ];
