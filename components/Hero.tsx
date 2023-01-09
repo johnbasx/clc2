@@ -40,8 +40,8 @@ export function Hero() {
           </h1>
           <div className='mt-6 space-y-6 text-blue-50 font-display'>
             <p>
-              We welcome you all to the second edition of "CLC - Corporate
-              Leaders Conclave". The CLC is an exclusive platform for
+              We welcome you all to the second edition of &quot;CLC - Corporate
+              Leaders Conclave&quot;. The CLC is an exclusive platform for
               corporates, entrepreneurs, students and teachers, held as part of
               the summit designed to bring together business leaders to discuss
               effective strategies, promote efficient practices, solve certain
