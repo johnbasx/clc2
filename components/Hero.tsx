@@ -1,9 +1,5 @@
-import Image from "next/image";
-
 import { ButtonLink } from "@components/ButtonLink";
 import { Container } from "@components/Container";
-import backgroundImage from "@images/CLC2-blur-01.png";
-import { Speakers } from "./Speakers";
 
 export function Hero() {
   return (
@@ -14,7 +10,13 @@ export function Hero() {
           <h1 className='text-5xl font-bold tracking-tighter text-transparent bg-gradient-to-r from-yellow-300 to-indigo-500 bg-clip-text font-display sm:text-7xl'>
             Corporate Leaders Conclave 2023
           </h1>
-          <div className='mt-6 space-y-6 text-blue-50 font-display'>
+          <ButtonLink
+            href='https://forms.gle/bMvNmF7mLEbaG7q98'
+            className='w-full mt-10 sm:hidden'
+          >
+            Join us now
+          </ButtonLink>
+          <div className='mt-8 space-y-6 text-blue-50 font-display'>
             <p>
               We welcome you all to the second edition of &quot;CLC - Corporate
               Leaders Conclave&quot;. The CLC is an exclusive platform for
@@ -39,9 +41,7 @@ export function Hero() {
               right direction.
             </p>
           </div>
-          <ButtonLink href='#' className='w-full mt-10 sm:hidden'>
-            Join us now
-          </ButtonLink>
+
           <dl className='grid grid-cols-2 mt-10 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left'>
             {[
               ["Speakers", "6"],

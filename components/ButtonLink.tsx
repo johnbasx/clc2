@@ -28,7 +28,7 @@ export function ButtonLink({
   ...props
 }: ButtonLinkProps) {
   return (
-    <Link href={href}>
+    <Link href={href} target='_blank' rel='noopener'>
       <span className={clsx(styles, className)} {...props}>
         {children}
       </span>
