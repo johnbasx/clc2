@@ -8,7 +8,7 @@ const Invitation = () => {
     <div className='px-6 mt-4 mb-14'>
       <div className='max-w-3xl mx-auto mb-6 space-y-6 text-left md:text-center'>
         <h1 className='text-5xl font-bold text-left text-transparent md:text-center bg-gradient-to-r from-indigo-600 via-pink-500 to-slate-200 bg-clip-text'>
-          Here&apos;s the Invitation
+          CLC2 Invitation
         </h1>
       </div>
       <div className='grid object-cover grid-cols-1 mx-auto overflow-hidden aspect-auto max-w-7xl rounded-[2.5rem] md:rounded-[6rem] shadow-lg'>
