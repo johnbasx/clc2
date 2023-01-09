@@ -7,7 +7,10 @@ const SpeakerBlock = ({ selectedIndex }: { selectedIndex: number }) => {
   return (
     <div>
       {days.map((day, dayIndex) => (
-        <div key={day.dateTime} className='relative lg:pl-8'>
+        <div
+          key={day.dateTime + day.name + dayIndex}
+          className='relative lg:pl-8'
+        >
           <svg
             aria-hidden='true'
             className={clsx(

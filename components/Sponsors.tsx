@@ -14,17 +14,17 @@ export function Sponsors() {
         Sponsors
       </h2>
       <Container>
-        <div className='max-w-xl mx-auto space-y-6 text-center'>
+        <div className='max-w-3xl mx-auto space-y-6 text-left md:text-center'>
+          <h1 className='text-5xl font-bold text-left text-transparent md:text-center bg-gradient-to-r from-pink-600 via-yellow-500 to-slate-200 bg-clip-text'>
+            Our current sponsorships for the conclave
+          </h1>
           <p className='text-blue-300'>
             This conclave woudn&apos;t have been possible without the support
             from our beloved sponsors who have given us huge support and
             blessings
           </p>
-          <h1 className='text-5xl font-bold text-transparent bg-gradient-to-r from-pink-600 via-yellow-500 to-slate-200 bg-clip-text'>
-            Our current sponsorships for the conclave
-          </h1>
         </div>
-        <div className='px-6 py-4 mt-6'>
+        <div className='px-2 py-4 mt-6'>
           <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
             {sponsors.map((sponsor, index) => (
               <div
