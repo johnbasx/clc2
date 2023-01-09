@@ -1,12 +1,7 @@
 import Image from "next/image";
 
 import { Container } from "@components/Container";
-import logoLaravel from "@images/logos/laravel.svg";
-import logoMirage from "@images/logos/mirage.svg";
-import logoStatamic from "@images/logos/statamic.svg";
-import logoStaticKit from "@images/logos/statickit.svg";
-import logoTransistor from "@images/logos/transistor.svg";
-import logoTuple from "@images/logos/tuple.svg";
+import { SponsorLogo, sponsors } from "@utils/sponsorsData";
 
 export function Sponsors() {
   return (
@@ -19,7 +14,7 @@ export function Sponsors() {
         Sponsors
       </h2>
       <Container>
-        <div className='max-w-2xl mx-auto space-y-6 text-center'>
+        <div className='max-w-xl mx-auto space-y-6 text-center'>
           <p className='text-blue-300'>
             This conclave woudn&apos;t have been possible without the support
             from our beloved sponsors who have given us huge support and
@@ -29,59 +24,24 @@ export function Sponsors() {
             Our current sponsorships for the conclave
           </h1>
         </div>
-        <ul className='flex flex-col items-center justify-center mt-20 space-y-12 sm:flex-row sm:space-x-12 sm:space-y-0 md:flex-col md:space-x-0 md:space-y-12'>
-          <li>
-            <ul className='flex flex-col items-center space-y-12 sm:space-y-12 md:flex-row md:space-y-0 md:space-x-16 lg:space-x-32'>
-              <li className='flex'>
+        <div className='px-6 py-4 mt-6'>
+          <div className='grid grid-cols-2 gap-4 md:grid-cols-4'>
+            {sponsors.map((sponsor, index) => (
+              <div
+                key={"Sponsor-Image-" + sponsor.name + index}
+                className='relative flex items-center justify-center object-contain p-3 overflow-hidden bg-white rounded-2xl'
+              >
                 <Image
-                  src={logoTransistor}
-                  alt='Transistor'
-                  layout='fixed'
-                  unoptimized
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  width={100}
+                  height={100}
+                  className='w-auto h-24'
                 />
-              </li>
-              <li className='flex'>
-                <Image src={logoTuple} alt='Tuple' layout='fixed' unoptimized />
-              </li>
-              <li className='flex'>
-                <Image
-                  src={logoStaticKit}
-                  alt='StaticKit'
-                  layout='fixed'
-                  unoptimized
-                />
-              </li>
-            </ul>
-          </li>
-          <li>
-            <ul className='flex flex-col items-center space-y-12 sm:space-y-12 md:flex-row md:space-y-0 md:space-x-16 lg:space-x-32'>
-              <li className='flex'>
-                <Image
-                  src={logoMirage}
-                  alt='Mirage'
-                  layout='fixed'
-                  unoptimized
-                />
-              </li>
-              <li className='flex'>
-                <Image
-                  src={logoLaravel}
-                  alt='Laravel'
-                  layout='fixed'
-                  unoptimized
-                />
-              </li>
-              <li className='flex'>
-                <Image
-                  src={logoStatamic}
-                  alt='Statamic'
-                  layout='fixed'
-                  unoptimized
-                />
-              </li>
-            </ul>
-          </li>
-        </ul>
+              </div>
+            ))}
+          </div>
+        </div>
       </Container>
     </section>
   );
