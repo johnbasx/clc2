@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
+import { NextSeo } from "next-seo";
 
 export default function Document() {
   return (
@@ -10,7 +11,7 @@ export default function Document() {
       <Head />
       <body className='from-black to-purple-900 via-zinc-900 bg-gradient-to-br'>
         <Main />
-        <NextScript />
+        <NextScript></NextScript>
       </body>
     </Html>
   );
