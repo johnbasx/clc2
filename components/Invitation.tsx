@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "./Container";
-import invitationImage from "@images/CLC2-invitation.png";
+import invitationImage from "@images/CLC2-Invitation.png";
 import Image from "next/image";
 
 const Invitation = () => {
