@@ -1,9 +1,9 @@
-import anilImage from "@images/avatars/anil-synapx.jpg";
-import dhabaliImage from "@images/avatars/dhabali-babina.png";
-import drpalinImage from "@images/avatars/drpalin-shija.png";
-import irabantaImage from "@images/avatars/irabanta-unacco.png";
-import niranjanImage from "@images/avatars/niranjan-jcre.png";
-import ranjitaImage from "@images/avatars/ranjita-her.jpg";
+import anilImage from "@images/speakers/anil-synapx.jpg";
+import dhabaliImage from "@images/speakers/dhabali-babina.png";
+import drpalinImage from "@images/speakers/drpalin-shija.png";
+import irabantaImage from "@images/speakers/irabanta-unacco.png";
+import niranjanImage from "@images/speakers/niranjan-jcre.png";
+import ranjitaImage from "@images/speakers/ranjita-her.jpg";
 import { StaticImageData } from "next/image";
 
 export type SpeakerProps = {

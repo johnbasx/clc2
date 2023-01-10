@@ -79,20 +79,7 @@ export function Speakers() {
                 {day.speakers.map((speaker, speakerIndex) => (
                   <div key={speakerIndex}>
                     <div className='relative overflow-hidden transform aspect-square group rounded-3xl'>
-                      {/* <div
-                        className={clsx(
-                          "absolute top-0 left-0 right-4 bottom-6 rounded-4xl border-4 transition duration-300 group-hover:scale-95 xl:right-6",
-                          [
-                            "border-blue-300",
-                            "border-indigo-300",
-                            "border-sky-300",
-                          ][speakerIndex % 3]
-                        )}
-                      /> */}
-                      <div
-                        className='absolute inset-0 overflow-hidden bg-transparent bg-white rounded-3xl'
-                        // style={{ clipPath: `url(#${id}-${speakerIndex % 3})` }}
-                      >
+                      <div className='absolute inset-0 overflow-hidden bg-transparent bg-white rounded-3xl'>
                         <Image
                           className='object-cover w-full h-full transition duration-300 group-hover:scale-110'
                           src={speaker.image}

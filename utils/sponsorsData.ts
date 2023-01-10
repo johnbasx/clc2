@@ -21,6 +21,28 @@ import seoulHouseLogo from "@images/sponsors/seoul-house.jpeg";
 import tmbLogo from "@images/sponsors/TMB.jpeg";
 import uniquePlanLogo from "@images/sponsors/unique-planners.jpeg";
 import jivanHospitalLogo from "@images/sponsors/jivan-hospital.png";
+import okHotelLogo from "@images/sponsors/ok-hotel.jpeg";
+import synapxLogo from "@images/sponsors/synapx.jpg";
+import mtuLogo from "@images/sponsors/mtu.png";
+import tataTisconLogo from "@images/sponsors/tata-tiscon.png";
+
+import mphcLogo from "@images/sponsors/mphc.jpg";
+import balajiLogo from "@images/sponsors/balaji-flour-mill.png";
+import dcLogo from "@images/sponsors/dc-imphal-west.png";
+import freeSoldierLogo from "@images/sponsors/free-soldier.jpg";
+import mdAllumLogo from "@images/sponsors/md-sala-allu.jpg";
+import msmeLogo from "@images/sponsors/msme.jpg";
+
+import bbrossLogo from "@images/sponsors/no-logo/bbross.png";
+import cbLogo from "@images/sponsors/no-logo/cb.png";
+import firstTectLogo from "@images/sponsors/no-logo/first-tect.png";
+import fryGuysLogo from "@images/sponsors/no-logo/fry-guys.png";
+import godspeedLogo from "@images/sponsors/no-logo/godspeed-physio.png";
+import hvsLogo from "@images/sponsors/no-logo/hvs.png";
+import lrSinghLogo from "@images/sponsors/no-logo/lr-singh.png";
+import ushamDevenLogo from "@images/sponsors/no-logo/usham-deven.png";
+import wangbrelLogo from "@images/sponsors/no-logo/wangbrel-decor.png";
+import worshangLogo from "@images/sponsors/no-logo/worshang-hungyo.png";
 
 const sponsorCategory = {
   platinum: { name: "platinum", max: 50000, min: 25000 },
@@ -38,9 +60,9 @@ export const sponsors = [
     category: sponsorCategory.platinum,
   },
   {
-    id: 2,
-    name: "Shija",
-    logo: shijaLogo,
+    id: 4,
+    name: "Unacco",
+    logo: unaccoLogo,
     category: sponsorCategory.platinum,
   },
   {
@@ -50,15 +72,45 @@ export const sponsors = [
     category: sponsorCategory.platinum,
   },
   {
-    id: 4,
-    name: "Unacco",
-    logo: unaccoLogo,
+    id: 24,
+    name: "SYNAPX",
+    logo: synapxLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 2,
+    name: "Shija",
+    logo: shijaLogo,
     category: sponsorCategory.platinum,
+  },
+  {
+    id: 12,
+    name: "HER",
+    logo: herLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 71,
+    name: "Manipur Technical University",
+    logo: mtuLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 22,
+    name: "Jivan Hospital",
+    logo: jivanHospitalLogo,
+    category: sponsorCategory.gold,
   },
   {
     id: 5,
     name: "Aiport Authority",
     logo: airportLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 14,
+    name: "Khil Design",
+    logo: khilLogo,
     category: sponsorCategory.gold,
   },
   {
@@ -71,6 +123,31 @@ export const sponsors = [
     id: 7,
     name: "Marjing Commerce",
     logo: marjingCommerceLogo,
+    category: sponsorCategory.gold,
+  },
+
+  {
+    id: 72,
+    name: "Tata Tiscon",
+    logo: tataTisconLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 73,
+    name: "DC Imphal West",
+    logo: dcLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 74,
+    name: "Manipur Police Housing Corp",
+    logo: mphcLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 106,
+    name: "HVS Pvt Ltd",
+    logo: hvsLogo,
     category: sponsorCategory.gold,
   },
   {
@@ -86,6 +163,13 @@ export const sponsors = [
     category: sponsorCategory.gold,
   },
   {
+    id: 23,
+    name: "OK Hotel",
+    logo: okHotelLogo,
+    category: sponsorCategory.gold,
+  },
+
+  {
     id: 10,
     name: "Thangjing Laundry",
     logo: thangjingLaundryLogo,
@@ -97,24 +181,14 @@ export const sponsors = [
     logo: beautyRoomLogo,
     category: sponsorCategory.gold,
   },
-  {
-    id: 12,
-    name: "HER",
-    logo: herLogo,
-    category: sponsorCategory.gold,
-  },
+
   {
     id: 13,
     name: "Hotel Yaiphaba",
     logo: hotelYaiphabaLogo,
     category: sponsorCategory.gold,
   },
-  {
-    id: 14,
-    name: "Khil Design",
-    logo: khilLogo,
-    category: sponsorCategory.gold,
-  },
+
   {
     id: 15,
     name: "Krishi Vigyan Kendra",
@@ -133,6 +207,13 @@ export const sponsors = [
     logo: liklaLogo,
     category: sponsorCategory.gold,
   },
+
+  {
+    id: 104,
+    name: "Fry Guys",
+    logo: fryGuysLogo,
+    category: sponsorCategory.gold,
+  },
   {
     id: 18,
     name: "Mahindra",
@@ -146,9 +227,27 @@ export const sponsors = [
     category: sponsorCategory.gold,
   },
   {
+    id: 105,
+    name: "Godspeed Physiotherapy",
+    logo: godspeedLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 40,
+    name: "MSME Manipur",
+    logo: msmeLogo,
+    category: sponsorCategory.gold,
+  },
+  {
     id: 20,
     name: "The Moving Billboard",
     logo: tmbLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 110,
+    name: "Worshang Hungyo",
+    logo: worshangLogo,
     category: sponsorCategory.gold,
   },
   {
@@ -157,10 +256,61 @@ export const sponsors = [
     logo: uniquePlanLogo,
     category: sponsorCategory.gold,
   },
+
   {
-    id: 22,
-    name: "Jivan Hospital",
-    logo: jivanHospitalLogo,
+    id: 33,
+    name: "Shri Balahi Flour Mill",
+    logo: balajiLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 34,
+    name: "Free Soldier",
+    logo: freeSoldierLogo,
+    category: sponsorCategory.gold,
+  },
+
+  {
+    id: 35,
+    name: "MD Salahuddin Aluminium",
+    logo: mdAllumLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 101,
+    name: "B Bross Spare Parts",
+    logo: bbrossLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 102,
+    name: "CB Enterprises",
+    logo: cbLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 103,
+    name: "First Tect",
+    logo: firstTectLogo,
+    category: sponsorCategory.gold,
+  },
+
+  {
+    id: 107,
+    name: "LR Singh Enterprises",
+    logo: lrSinghLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 108,
+    name: "Usham Deven (MLA)",
+    logo: ushamDevenLogo,
+    category: sponsorCategory.gold,
+  },
+  {
+    id: 109,
+    name: "Wangbrel Decor",
+    logo: wangbrelLogo,
     category: sponsorCategory.gold,
   },
 ];

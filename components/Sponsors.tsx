@@ -36,7 +36,7 @@ export function Sponsors() {
                   alt={sponsor.name}
                   width={100}
                   height={100}
-                  className='object-contain w-auto h-24'
+                  className='object-contain w-auto h-24 rounded-lg'
                 />
               </div>
             ))}
