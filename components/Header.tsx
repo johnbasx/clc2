@@ -21,7 +21,7 @@ export function Header() {
         </div>
         <div className='hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end'>
           <ButtonLink href='https://forms.gle/bMvNmF7mLEbaG7q98'>
-            Join us now
+            Register Now
           </ButtonLink>
         </div>
       </Container>

@@ -1,5 +1,6 @@
 import { ButtonLink } from "@components/ButtonLink";
 import { Container } from "@components/Container";
+import NeonButton from "./NeonButton";
 
 export function Hero() {
   return (
@@ -10,9 +11,10 @@ export function Hero() {
           <h1 className='text-5xl font-bold tracking-tighter text-transparent bg-gradient-to-r from-yellow-300 to-indigo-500 bg-clip-text font-display sm:text-7xl'>
             Corporate Leaders Conclave 2023
           </h1>
+          <NeonButton />
           <ButtonLink
             href='https://forms.gle/bMvNmF7mLEbaG7q98'
-            className='w-full mt-10 sm:hidden'
+            className='hidden w-full mt-10'
           >
             Join us now
           </ButtonLink>

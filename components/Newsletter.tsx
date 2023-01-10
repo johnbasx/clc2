@@ -31,7 +31,7 @@ export function Newsletter() {
             <div className='flex justify-end'>
               <div>
                 <ButtonLink href='https://forms.gle/bMvNmF7mLEbaG7q98'>
-                  Join us now
+                  Register Now
                 </ButtonLink>
               </div>
             </div>

@@ -28,10 +28,10 @@ export function ButtonLink({
   ...props
 }: ButtonLinkProps) {
   return (
-    <Link href={href} target='_blank' rel='noopener'>
+    <a href={href} target='_blank' rel='noopener noreferrer'>
       <span className={clsx(styles, className)} {...props}>
         {children}
       </span>
-    </Link>
+    </a>
   );
 }
